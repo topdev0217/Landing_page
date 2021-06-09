@@ -7,4 +7,70 @@ body {
 
 .header {
   background: #141416;
+  height: 70px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    height: 100%;
+
+    .logo-section {
+      display: flex;
+      .icon-list {
+        img {
+          cursor: pointer;
+          width: 23px;
+          height: 28px;
+
+          &:first-child {
+            margin-right: 5px;
+          }
+        }
+      }
+
+      .divider {
+        margin-left: 170px;
+        width: 2px;
+        height: 30px;
+        background: #D8D8D8;
+        border-radius: 1px;
+      }
+    }
+
+    .menu-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 15px;
+        color: #777E90;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        transition: all 0.3s;
+        margin-right: 30px;
+
+        &.active {
+          opacity: 1;
+        }
+      }
+
+      button {
+        width: 220px;
+        height: 34px;
+        color: #FFFFFF;
+        background: #3772FF;
+        border-radius: 17px;
+        text-transform: initial;
+
+        span {
+          font-weight: 500;
+          font-size: 14px;
+        }
+      }
+    }
+  }
 }
