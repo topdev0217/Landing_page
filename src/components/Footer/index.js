@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useHistory, Link } from 'react-router-dom'
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
@@ -12,6 +12,7 @@ import './style.scss';
 
 const Footer = () => {
   const history = useHistory();
+  const [cookie, setCookie] = useState(false);
 
   /**
    * Go to url by a click
@@ -19,6 +20,10 @@ const Footer = () => {
   */
   const linkTo = (url) => {
     history.push(url)
+  }
+
+  const cookieAccept = () => {
+    setCookie(true);
   }
 
   return (
@@ -129,6 +134,18 @@ const Footer = () => {
           {/* STAY CONNECTED SECTION END */}
 
         </Grid>
+        <Typography component='div' className='divider' />
+        <Typography component='div' className='copylight-section'>
+          <Typography component='span' className='copylight'>Copyright (c) 2021 Marketing LLC. All right reserved</Typography>
+          {
+            !cookie && (
+              <Typography component='span' className='cookies-bar'>
+                We use cookies for better services.
+                <Typography component='span' className='accept' onClick={cookieAccept}>Accept</Typography>
+              </Typography>
+            )
+          }
+        </Typography>
       </Container>
     </div>
   )
