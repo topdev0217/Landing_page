@@ -1,0 +1,66 @@
+/*
+  cash payment
+*/
+
+.cash-payment-section {
+  padding: 96px 0 80px 0;
+
+  .notification {
+    font-weight: bold;
+    font-size: 16px;
+    color: #646A79;
+  }
+
+  .title {
+    margin: 12px 0 30px 0;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFFFFF;
+  }
+
+  > .description {
+    font-weight: bold;
+    font-size: 18px;
+    color: #646A79;
+  }
+
+  .cash-method-list {
+    margin-top: 70px;
+
+    .cash-method {
+      border: solid 3px transparent;
+      background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #7DC0FF, #F093EF, #F7B083);
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+      box-shadow: 2px 1000px 1px #0D0D0E inset;
+      height: 348px;
+      padding: 43px 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+      border-radius: 8px;
+
+      .cash-method-title {
+        margin-top: 30px;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+      }
+
+      .cash-method-description {
+        margin-top: 17px;
+        font-weight: normal;
+        font-size: 16px;
+        color: #646A79;
+      }
+
+      .learn-more {
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 16px;
+        color: #3772FF;
+      }
+    }
+  }
+}

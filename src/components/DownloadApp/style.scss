@@ -1,0 +1,121 @@
+/*
+  DownloadApp
+*/
+
+.download-app-section {
+  padding-bottom: 60px;
+  .notification {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #646A79;
+  }
+
+  .title {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .apple-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+
+    .apple-logo-content {
+      padding: 10px 21px;
+      display: flex;
+      align-items: center;
+      border: 1px solid #FFFFFF;
+      border-radius: 8px;
+
+      img {
+        margin-right: 15px;
+        width: 30px;
+        height: 28px;
+      }
+
+      .apple-text {
+        .apple-description {
+          font-weight: 300;
+          font-size: 14px;
+          text-align: center;
+          color: #FFFFFF;
+          text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .apple-logo-title {
+          font-weight: 900;
+          font-size: 24px;
+          text-align: center;
+          color: #FFFFFF;
+          text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+  }
+
+  .app-image-section {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+
+    .app-image-content {
+      width: 70%;
+      position: relative;
+      height: 1100px;
+      @media (max-width: 768px) {
+        height: 700px;
+      }
+      @media (max-width: 576px) {
+        height: 500px;
+      }
+
+      img {
+        position: absolute;
+
+        &.first-img {
+          left: 0px;
+          top: 0px;
+          @media (max-width: 768px) {
+            width: 250px;
+          }
+          @media (max-width: 576px) {
+            width: 200px;
+          }
+        }
+        &.second-img {
+          left: 200px;
+          top: 140px;
+          @media (max-width: 768px) {
+            top: 100px;
+            left: 100px;
+            width: 250px;
+          }
+          @media (max-width: 576px) {
+            width: 200px;
+            left: 50px;
+            top: 50px;
+          }
+        }
+        &.third-img {
+          left: 400px;
+          top: 280px;
+          @media (max-width: 768px) {
+            width: 250px;
+            top: 200px;
+            left: 200px;
+          }
+          @media (max-width: 576px) {
+            width: 200px;
+            left: 100px;
+            top: 100px;
+          }
+        }
+      }
+    }
+  }
+}
