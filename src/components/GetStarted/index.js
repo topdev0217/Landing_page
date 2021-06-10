@@ -37,8 +37,6 @@ const GetStarted = () => {
               <ChevronRightRoundedIcon fontSize='inherit' />
             </IconButton>
           </Button>
-          {/* <Typography component='div' className='learn-more'>
-            </Typography> */}
         </Typography>
       </Grid>
     </Grid>
