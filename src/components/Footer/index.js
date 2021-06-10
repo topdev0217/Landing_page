@@ -59,7 +59,7 @@ const Footer = () => {
           >
             <Typography component='div'>
               <Typography
-                component="span"
+                component='span'
                 className='title'
               >
                 Market
@@ -83,7 +83,7 @@ const Footer = () => {
           >
             <Typography component='div'>
               <Typography
-                component="span"
+                component='span'
                 className='title'
               >
                 Info
@@ -107,14 +107,14 @@ const Footer = () => {
             className='stay-connected-section'
           >
             <Typography
-              component="span"
+              component='span'
               className='title'
             >
               Stay Connected
             </Typography>
             <Typography component='div' className='email-input-section'>
               <Typography
-                component="span"
+                component='span'
                 className='description'
               >
                 Subscribe to the marketing newsletter for daily updates.
@@ -122,11 +122,11 @@ const Footer = () => {
               <Typography component='div' className='email-input-box'>
                 <InputBase
                   className='email-input'
-                  placeholder="Enter your email"
+                  placeholder='Enter your email'
                   inputProps={{ 'aria-label': 'search google maps' }}
                 />
-                <IconButton aria-label="delete" size="small">
-                  <ArrowRightAltRoundedIcon fontSize="inherit" />
+                <IconButton aria-label='delete' size='small'>
+                  <ArrowRightAltRoundedIcon fontSize='inherit' />
                 </IconButton>
               </Typography>
             </Typography>

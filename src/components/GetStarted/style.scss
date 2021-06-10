@@ -1,0 +1,116 @@
+/*
+  GetStarted
+*/
+
+.get-started-section {
+  padding: 145px 0 160px 0;
+  .image-section {
+    height: 700px;
+    position: relative;
+    @media (max-width: 576px) {
+      height: 400px;
+    }
+
+    .firstImg {
+      left: -100px;
+      top: 0px;
+      position: absolute;
+      @media (max-width: 768px) {
+        left: 0px;
+      }
+      @media (max-width: 576px) {
+        width: 300px;
+      }
+    }
+    .secondImg {
+      left: 25px;
+      top: -30px;
+      position: absolute;
+      @media (max-width: 768px) {
+        left: 125px;
+      }
+      @media (max-width: 576px) {
+        width: 250px;
+        left: 68px;
+      }
+    }
+    .thirdImg {
+      left: 110px;
+      top: -65px;
+      position: absolute;
+      @media (max-width: 768px) {
+        left: 220px;
+      }
+      @media (max-width: 576px) {
+        width: 260px;
+        left: 100px;
+      }
+    }
+  }
+
+  .action {
+    .title {
+      font-weight: bold;
+      font-size: 60px;
+      color: #FFFFFF;
+      margin-bottom: 30px;
+
+      .highlight {
+        color: #3772FF;
+        font-weight: bold;
+        font-size: 60px;
+      }
+    }
+
+    .simple-description {
+      font-weight: bold;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: #646A79;
+    }
+
+    .btn-section {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+
+      @media (max-width: 576px) {
+        flex-direction: column;
+      }
+
+      .get-started-btn {
+        width: 202px;
+        height: 55px;
+        font-weight: 600;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        border-radius: 25px;
+        border: solid 3px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #7DC0FF, #F199DA, #F7AF85);
+        background-origin: border-box;
+        box-shadow: 2px 1000px 1px #000000 inset, 20px 5px 40px #cf77f3, 0px 5px 40px #009bff, 0px 0px 1px #2ac9db;
+         background-image: linear-gradient(-90deg, #7DC0FF, #F199DA, #F7AF85);
+      }
+
+      .learn-more {
+        margin-left: 55px;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 14px;
+        color: #3772FF;
+        button {
+          margin-left: 20px;
+          svg {
+            color: #3772FF;
+          }
+        }
+        @media (max-width: 576px) {
+          margin-top: 35px;
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}
