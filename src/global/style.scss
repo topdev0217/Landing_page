@@ -3,6 +3,9 @@
 */
 
 .logo-icon-list {
+  display: flex;
+  align-items: center;
+  
   img {
     cursor: pointer;
     width: 23px;

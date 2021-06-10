@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import dollarImg from '../../assets/icons/dollar.svg';
 import boxingImg from '../../assets/icons/boxing.svg';
+import logoImg from '../../assets/imgs/logo.png';
 import './style.scss';
 
 const Header = () => {
@@ -38,6 +39,7 @@ const Header = () => {
             <img src={dollarImg} aria-hidden alt='dollar image' />
             <img src={boxingImg} aria-hidden alt='boxing image' />
           </Typography>
+          <Typography component='div' className='header-logo' style={{ backgroundImage: `url(${logoImg})` }} />
           <Typography component='div' className='divider' />
         </Typography>
         <Typography component='div' className='menu-list'>
