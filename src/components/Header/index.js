@@ -39,7 +39,12 @@ const Header = () => {
             <img src={dollarImg} aria-hidden alt='dollar image' />
             <img src={boxingImg} aria-hidden alt='boxing image' />
           </Typography>
-          <Typography component='div' className='header-logo' style={{ backgroundImage: `url(${logoImg})` }} />
+          <Typography
+            component='div'
+            className='header-logo'
+            onClick={() => linkTo('/')}
+            style={{ backgroundImage: `url(${logoImg})` }}
+          />
           <Typography component='div' className='divider' />
         </Typography>
         <Typography component='div' className='menu-list'>
