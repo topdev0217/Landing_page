@@ -1,0 +1,15 @@
+/*
+  common styles
+*/
+
+.logo-icon-list {
+  img {
+    cursor: pointer;
+    width: 23px;
+    height: 28px;
+
+    &:first-child {
+      margin-right: 5px;
+    }
+  }
+}

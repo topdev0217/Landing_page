@@ -1,0 +1,91 @@
+/*
+  Footer
+*/
+.footer {
+  background: #141416;
+
+  .container {
+    padding: 79px 24px;
+
+    .title {
+      font-weight: 500;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+
+    .logo-section {
+      .description {
+        margin-top: 31px;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+      }
+    }
+
+    .menu-section {
+      display: flex;
+      justify-content: center;
+      @media (max-width: 960px) {
+        justify-content: flex-start;
+      }
+
+      > div {
+        display: inline-block;
+      }
+
+      .menu-list {
+        margin-top: 39px;
+        display: flex;
+        flex-direction: column;
+        a {
+          margin-bottom: 23px;
+          font-weight: 600;
+          font-size: 13px;
+          color: #777E91;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .stay-connected-section {
+      .email-input-section {
+        margin-top: 39px;
+        .description {
+          font-weight: normal;
+          font-size: 14px;
+          color: #FFFFFF;
+        }
+
+        .email-input-box {
+          margin-top: 25px;
+          border: 2px solid #E6E8EC;
+          border-radius: 50px;
+          height: 52px;
+          display: flex;
+          align-items: center;
+          padding-left: 20px;
+
+          .email-input {
+            color: #777E91;
+            font-weight: 500;
+            font-size: 13px;
+            width: 100%;
+          }
+
+          button {
+            background: #3772FF;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            margin: 10px;
+
+            svg {
+              color: white;
+            }
+          }
+        }
+        
+      }
+    }
+  }
+}
