@@ -42,6 +42,7 @@ const Footer = () => {
             <Typography component='div' className='logo-icon-list' onClick={() => linkTo('/')}>
               <img src={dollarImg} aria-hidden alt='dollar image' />
               <img src={boxingImg} aria-hidden alt='boxing image' />
+              <Typography component='span'>Marketplace</Typography>
             </Typography>
             <Typography component='div' className='description'>
               Marketplace, wallet, and payment gateway: makes NFTs accessible, instant and sexy.
