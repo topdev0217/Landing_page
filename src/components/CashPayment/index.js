@@ -1,5 +1,6 @@
 import React from 'react';
-import { Typography, Grid } from '@material-ui/core';
+import { Typography, Grid, Button } from '@material-ui/core';
+import { Link as RouterLink } from 'react-router-dom';
 import creditCardImg from '../../assets/icons/credit-card.svg';
 import transactionImg from '../../assets/icons/transaction.svg';
 import shoppingBagImg from '../../assets/icons/shopping-bag.svg';
@@ -30,7 +31,7 @@ const CashPayment = () => {
                   <Typography variant='h1' component='h2' className='cash-method-title'>{item.title}</Typography>
                   <Typography component='p' className='cash-method-description'>{item.description}</Typography>
                 </Typography>
-                <Typography component='div' className='learn-more'>Learn more</Typography>
+                <Button color="primary" component={RouterLink} to="/" className='learn-more'>Learn more</Button>
               </Typography>
             </Grid>
           ))

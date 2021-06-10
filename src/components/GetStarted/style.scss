@@ -8,10 +8,10 @@
   .image-section {
     height: 700px;
     position: relative;
-    @media (max-width: 1024px) {
+    @media (max-width: 1373px) {
       height: 400px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 960px) {
       height: 700px;
     }
     @media (max-width: 576px) {
@@ -22,13 +22,17 @@
       left: -100px;
       top: 0px;
       position: absolute;
-      @media (max-width: 1024px) {
-        width: 470px;
-        left: -20px;
+      @media (max-width: 1373px) {
+        width: 460px;
+        left: -40px;
       }
-      @media (max-width: 768px) {
+      @media (max-width: 960px) {
         left: 0px;
         width: auto;
+      }
+      @media (max-width: 700px) {
+        left: 0px;
+        width: 400px;
       }
       @media (max-width: 576px) {
         width: 300px;
@@ -38,13 +42,17 @@
       left: 25px;
       top: -30px;
       position: absolute;
-      @media (max-width: 1024px) {
-        width: 380px;
-        left: 70px;
+      @media (max-width: 1373px) {
+        width: 370px;
+        left: 58px;
       }
-      @media (max-width: 768px) {
+      @media (max-width: 960px) {
         left: 125px;
         width: auto;
+      }
+      @media (max-width: 700px) {
+        left: 90px;
+        width: 350px;
       }
       @media (max-width: 576px) {
         width: 250px;
@@ -55,13 +63,18 @@
       left: 110px;
       top: -65px;
       position: absolute;
-      @media (max-width: 1024px) {
-        width: 400px;
-        left: 110px;
+      @media (max-width: 1373px) {
+        width: 370px;
+        left: 120px;
+        top: -75px;
       }
-      @media (max-width: 768px) {
+      @media (max-width: 960px) {
         left: 220px;
         width: auto;
+      }
+      @media (max-width: 700px) {
+        left: 170px;
+        width: 350px;
       }
       @media (max-width: 576px) {
         width: 260px;
@@ -122,6 +135,7 @@
         font-weight: 600;
         font-size: 14px;
         color: #3772FF;
+        text-transform: initial;
         button {
           margin-left: 20px;
           svg {

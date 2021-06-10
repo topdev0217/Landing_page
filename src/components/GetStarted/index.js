@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link as RouterLink } from 'react-router-dom';
 import {
   Grid,
   Typography,
@@ -30,11 +31,14 @@ const GetStarted = () => {
         </Typography>
         <Typography component='div' className='btn-section'>
           <Button variant='contained' className='get-started-btn'>Get Started</Button>
-          <Typography component='div' className='learn-more'>
+          <Button color="primary" component={RouterLink} to="/" className='learn-more'>
             Or learn more
             <IconButton aria-label='delete' size='small'>
               <ChevronRightRoundedIcon fontSize='inherit' />
-            </IconButton></Typography>
+            </IconButton>
+          </Button>
+          {/* <Typography component='div' className='learn-more'>
+            </Typography> */}
         </Typography>
       </Grid>
     </Grid>

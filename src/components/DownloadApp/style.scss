@@ -31,11 +31,11 @@
       align-items: center;
       border: 1px solid #FFFFFF;
       border-radius: 8px;
+      background: #0D0D0E;
+      text-transform: initial;
 
       img {
         margin-right: 15px;
-        width: 30px;
-        height: 28px;
       }
 
       .apple-text {
@@ -67,10 +67,10 @@
       width: 70%;
       position: relative;
       height: 1100px;
-      @media (max-width: 768px) {
+      @media (max-width: 966px) {
         height: 700px;
       }
-      @media (max-width: 576px) {
+      @media (max-width: 695px) {
         height: 500px;
       }
 
@@ -80,22 +80,22 @@
         &.first-img {
           left: 0px;
           top: 0px;
-          @media (max-width: 768px) {
+          @media (max-width: 966px) {
             width: 250px;
           }
-          @media (max-width: 576px) {
+          @media (max-width: 695px) {
             width: 200px;
           }
         }
         &.second-img {
           left: 200px;
           top: 140px;
-          @media (max-width: 768px) {
+          @media (max-width: 966px) {
             top: 100px;
             left: 100px;
             width: 250px;
           }
-          @media (max-width: 576px) {
+          @media (max-width: 695px) {
             width: 200px;
             left: 50px;
             top: 50px;
@@ -104,12 +104,12 @@
         &.third-img {
           left: 400px;
           top: 280px;
-          @media (max-width: 768px) {
+          @media (max-width: 966px) {
             width: 250px;
             top: 200px;
             left: 200px;
           }
-          @media (max-width: 576px) {
+          @media (max-width: 695px) {
             width: 200px;
             left: 100px;
             top: 100px;
