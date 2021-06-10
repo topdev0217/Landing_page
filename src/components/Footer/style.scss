@@ -3,7 +3,8 @@
 */
 .footer {
   background: #141416;
-
+  font-family: 'Poppins', sans-serif;
+  
   .container {
     padding: 79px 24px 34px 24px;
 
@@ -67,7 +68,7 @@
         .email-input-box {
           box-sizing: border-box;
           margin-top: 25px;
-          border: 2px solid #E6E8EC;
+          border: 3px solid #E6E8EC;
           border-radius: 50px;
           height: 52px;
           display: flex;
@@ -79,6 +80,33 @@
             font-weight: 500;
             font-size: 13px;
             width: 100%;
+            input {
+              &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: #777E91;
+                font-weight: 500;
+                font-size: 13px;
+                opacity: 1;
+              }
+              &::-moz-placeholder { /* Firefox 19+ */
+                color: #777E91;
+                font-weight: 500;
+                font-size: 13px;
+                opacity: 1;
+              }
+              &:-ms-input-placeholder { /* IE 10+ */
+                color: #777E91;
+                font-weight: 500;
+                font-size: 13px;
+                opacity: 1;
+              }
+              &:-moz-placeholder { /* Firefox 18- */
+                color: #777E91;
+                font-weight: 500;
+                font-size: 13px;
+                opacity: 1;
+              }
+            }
+            
           }
 
           button {

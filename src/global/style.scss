@@ -1,11 +1,17 @@
 /*
   common styles
 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
 
 .logo-icon-list {
   display: flex;
   align-items: center;
-  
+
   img {
     cursor: pointer;
     width: 23px;

@@ -124,7 +124,6 @@ const Footer = () => {
                 <InputBase
                   className='email-input'
                   placeholder='Enter your email'
-                  inputProps={{ 'aria-label': 'search google maps' }}
                 />
                 <IconButton aria-label='delete' size='small'>
                   <ArrowRightAltRoundedIcon fontSize='inherit' />
