@@ -9,6 +9,7 @@
     padding: 79px 24px 34px 24px;
 
     .title {
+      font-family: 'Poppins', sans-serif;
       font-weight: 500;
       font-size: 16px;
       color: #FFFFFF;
@@ -16,6 +17,7 @@
 
     .logo-section {
       .description {
+        font-family: 'Poppins', sans-serif;
         margin-top: 31px;
         font-weight: 500;
         font-size: 20px;
@@ -25,6 +27,7 @@
         display: flex;
         align-items: center;
         span {
+          font-family: 'Poppins', sans-serif;
           margin-left: 30px;
           color: white;
         }
@@ -47,6 +50,7 @@
         display: flex;
         flex-direction: column;
         a {
+          font-family: 'Poppins', sans-serif;
           margin-bottom: 23px;
           font-weight: 600;
           font-size: 13px;
@@ -60,6 +64,7 @@
       .email-input-section {
         margin-top: 39px;
         .description {
+          font-family: 'Poppins', sans-serif;
           font-weight: normal;
           font-size: 14px;
           color: #FFFFFF;
@@ -81,26 +86,31 @@
             font-size: 13px;
             width: 100%;
             input {
+              font-family: 'Poppins', sans-serif;
               &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
                 color: #777E91;
+                font-family: 'Poppins', sans-serif;
                 font-weight: 500;
                 font-size: 13px;
                 opacity: 1;
               }
               &::-moz-placeholder { /* Firefox 19+ */
                 color: #777E91;
+                font-family: 'Poppins', sans-serif;
                 font-weight: 500;
                 font-size: 13px;
                 opacity: 1;
               }
               &:-ms-input-placeholder { /* IE 10+ */
                 color: #777E91;
+                font-family: 'Poppins', sans-serif;
                 font-weight: 500;
                 font-size: 13px;
                 opacity: 1;
               }
               &:-moz-placeholder { /* Firefox 18- */
                 color: #777E91;
+                font-family: 'Poppins', sans-serif;
                 font-weight: 500;
                 font-size: 13px;
                 opacity: 1;
@@ -146,12 +156,15 @@
       .copylight {
         font-size: 12px;
         color: #646A79;
+        font-family: 'Poppins', sans-serif;
       }
 
       .cookies-bar {
         color: #FFFFFF;
         font-size: 12px;
+        font-family: 'Poppins', sans-serif;
         .accept {
+          font-family: 'Poppins', sans-serif;
           margin-left: 20px;
           color: #3772FF;
           font-size: 12px;

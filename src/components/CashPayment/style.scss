@@ -7,12 +7,14 @@
   font-family: 'Poppins', sans-serif;
 
   .notification {
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 16px;
     color: #646A79;
   }
 
   .title {
+    font-family: 'Poppins', sans-serif;
     margin: 12px 0 30px 0;
     font-weight: bold;
     font-size: 40px;
@@ -20,6 +22,7 @@
   }
 
   > .description {
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 18px;
     color: #646A79;
@@ -43,6 +46,7 @@
       border-radius: 8px;
 
       .cash-method-title {
+        font-family: 'Poppins', sans-serif;
         margin-top: 30px;
         font-weight: bold;
         font-size: 20px;
@@ -64,6 +68,7 @@
         padding: 0px;
         span {
           justify-content: flex-start;
+          font-family: 'Poppins', sans-serif;
         }
       }
     }
