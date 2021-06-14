@@ -5,10 +5,9 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import dollarImg from '../../assets/icons/dollar.svg';
 import boxingImg from '../../assets/icons/boxing.svg';
-import IconButton from '@material-ui/core/IconButton';
-import ArrowRightAltRoundedIcon from '@material-ui/icons/ArrowRightAltRounded';
-import InputBase from '@material-ui/core/InputBase';
 import './style.scss';
+import MailChimpForm from './MailChimpForm';
+
 
 const Footer = () => {
   const history = useHistory();
@@ -100,37 +99,7 @@ const Footer = () => {
           {/* INFO SECTION END */}
 
           {/* STAY CONNECTED SECTION */}
-          <Grid
-            item
-            xs={12}
-            sm={6}
-            md={3}
-            className='stay-connected-section'
-          >
-            <Typography
-              component='span'
-              className='title'
-            >
-              Stay Connected
-            </Typography>
-            <Typography component='div' className='email-input-section'>
-              <Typography
-                component='span'
-                className='description'
-              >
-                Subscribe to the marketing newsletter for daily updates.
-              </Typography>
-              <Typography component='div' className='email-input-box'>
-                <InputBase
-                  className='email-input'
-                  placeholder='Enter your email'
-                />
-                <IconButton aria-label='delete' size='small'>
-                  <ArrowRightAltRoundedIcon fontSize='inherit' />
-                </IconButton>
-              </Typography>
-            </Typography>
-          </Grid>
+          <MailChimpForm />
           {/* STAY CONNECTED SECTION END */}
 
         </Grid>
